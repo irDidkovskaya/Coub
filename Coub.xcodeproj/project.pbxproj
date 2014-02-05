@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		720AF1ED1899B03500D24D0A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720AF1EC1899B03500D24D0A /* AVFoundation.framework */; };
+		720AF1EF1899B04600D24D0A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720AF1EE1899B04600D24D0A /* MediaPlayer.framework */; };
+		720AF1F2189A4AC600D24D0A /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 720AF1F1189A4AC600D24D0A /* MenuViewController.m */; };
+		720AF1FB189AE6E100D24D0A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 720AF1FA189AE6E100D24D0A /* Constants.m */; };
 		72B192301898320800A87FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B1922F1898320800A87FAD /* Foundation.framework */; };
 		72B192321898320800A87FAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B192311898320800A87FAD /* CoreGraphics.framework */; };
 		72B192341898320800A87FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B192331898320800A87FAD /* UIKit.framework */; };
@@ -14,13 +18,16 @@
 		72B1923C1898320800A87FAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B1923B1898320800A87FAD /* main.m */; };
 		72B192401898320800A87FAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B1923F1898320800A87FAD /* AppDelegate.m */; };
 		72B192431898320800A87FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B192411898320800A87FAD /* Main.storyboard */; };
-		72B192461898320800A87FAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B192451898320800A87FAD /* ViewController.m */; };
+		72B192461898320800A87FAD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B192451898320800A87FAD /* MainViewController.m */; };
 		72B192481898320800A87FAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B192471898320800A87FAD /* Images.xcassets */; };
 		72B1924F1898320800A87FAD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B1924E1898320800A87FAD /* XCTest.framework */; };
 		72B192501898320800A87FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B1922F1898320800A87FAD /* Foundation.framework */; };
 		72B192511898320800A87FAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B192331898320800A87FAD /* UIKit.framework */; };
 		72B192591898320800A87FAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72B192571898320800A87FAD /* InfoPlist.strings */; };
 		72B1925B1898320800A87FAD /* CoubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B1925A1898320800A87FAD /* CoubTests.m */; };
+		72B1926E189839A900A87FAD /* CoubApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B1926D189839A900A87FAD /* CoubApi.m */; };
+		72B1927118984DEF00A87FAD /* CoubTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B1927018984DEF00A87FAD /* CoubTableCell.m */; };
+		D5264B566E644708ABB27978 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1896C9138A140B8AC81BD5B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		720AF1EC1899B03500D24D0A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		720AF1EE1899B04600D24D0A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		720AF1F0189A4AC600D24D0A /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		720AF1F1189A4AC600D24D0A /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		720AF1F9189AE6E100D24D0A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		720AF1FA189AE6E100D24D0A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		72B1922C1898320800A87FAD /* Coub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B1922F1898320800A87FAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		72B192311898320800A87FAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +58,20 @@
 		72B1923E1898320800A87FAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		72B1923F1898320800A87FAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		72B192421898320800A87FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		72B192441898320800A87FAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		72B192451898320800A87FAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72B192441898320800A87FAD /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		72B192451898320800A87FAD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		72B192471898320800A87FAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		72B1924D1898320800A87FAD /* CoubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B1924E1898320800A87FAD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		72B192561898320800A87FAD /* CoubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoubTests-Info.plist"; sourceTree = "<group>"; };
 		72B192581898320800A87FAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		72B1925A1898320800A87FAD /* CoubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoubTests.m; sourceTree = "<group>"; };
+		72B1926C189839A900A87FAD /* CoubApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoubApi.h; path = Api/CoubApi.h; sourceTree = "<group>"; };
+		72B1926D189839A900A87FAD /* CoubApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoubApi.m; path = Api/CoubApi.m; sourceTree = "<group>"; };
+		72B1926F18984DEF00A87FAD /* CoubTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoubTableCell.h; path = cells/CoubTableCell.h; sourceTree = "<group>"; };
+		72B1927018984DEF00A87FAD /* CoubTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoubTableCell.m; path = cells/CoubTableCell.m; sourceTree = "<group>"; };
+		7CAE5366566A4E9DBB944CB9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		B1896C9138A140B8AC81BD5B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +79,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				720AF1EF1899B04600D24D0A /* MediaPlayer.framework in Frameworks */,
+				720AF1ED1899B03500D24D0A /* AVFoundation.framework in Frameworks */,
 				72B192321898320800A87FAD /* CoreGraphics.framework in Frameworks */,
 				72B192341898320800A87FAD /* UIKit.framework in Frameworks */,
 				72B192301898320800A87FAD /* Foundation.framework in Frameworks */,
+				D5264B566E644708ABB27978 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +108,7 @@
 				72B192541898320800A87FAD /* CoubTests */,
 				72B1922E1898320800A87FAD /* Frameworks */,
 				72B1922D1898320800A87FAD /* Products */,
+				7CAE5366566A4E9DBB944CB9 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +124,13 @@
 		72B1922E1898320800A87FAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				720AF1EE1899B04600D24D0A /* MediaPlayer.framework */,
+				720AF1EC1899B03500D24D0A /* AVFoundation.framework */,
 				72B1922F1898320800A87FAD /* Foundation.framework */,
 				72B192311898320800A87FAD /* CoreGraphics.framework */,
 				72B192331898320800A87FAD /* UIKit.framework */,
 				72B1924E1898320800A87FAD /* XCTest.framework */,
+				B1896C9138A140B8AC81BD5B /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,10 +139,15 @@
 			isa = PBXGroup;
 			children = (
 				72B1923E1898320800A87FAD /* AppDelegate.h */,
+				72B19264189837AE00A87FAD /* Api */,
 				72B1923F1898320800A87FAD /* AppDelegate.m */,
 				72B192411898320800A87FAD /* Main.storyboard */,
-				72B192441898320800A87FAD /* ViewController.h */,
-				72B192451898320800A87FAD /* ViewController.m */,
+				72B1926F18984DEF00A87FAD /* CoubTableCell.h */,
+				72B1927018984DEF00A87FAD /* CoubTableCell.m */,
+				720AF1F0189A4AC600D24D0A /* MenuViewController.h */,
+				720AF1F1189A4AC600D24D0A /* MenuViewController.m */,
+				72B192441898320800A87FAD /* MainViewController.h */,
+				72B192451898320800A87FAD /* MainViewController.m */,
 				72B192471898320800A87FAD /* Images.xcassets */,
 				72B192361898320800A87FAD /* Supporting Files */,
 			);
@@ -152,6 +183,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		72B19264189837AE00A87FAD /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				72B1926C189839A900A87FAD /* CoubApi.h */,
+				72B1926D189839A900A87FAD /* CoubApi.m */,
+				720AF1F9189AE6E100D24D0A /* Constants.h */,
+				720AF1FA189AE6E100D24D0A /* Constants.m */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72B1925E1898320800A87FAD /* Build configuration list for PBXNativeTarget "Coub" */;
 			buildPhases = (
+				A2369E88362F4618BC50F1CC /* Check Pods Manifest.lock */,
 				72B192281898320800A87FAD /* Sources */,
 				72B192291898320800A87FAD /* Frameworks */,
 				72B1922A1898320800A87FAD /* Resources */,
+				9756C69A76F34CCDA1EE0D86 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,14 +288,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9756C69A76F34CCDA1EE0D86 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2369E88362F4618BC50F1CC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		72B192281898320800A87FAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72B192461898320800A87FAD /* ViewController.m in Sources */,
+				72B192461898320800A87FAD /* MainViewController.m in Sources */,
+				720AF1F2189A4AC600D24D0A /* MenuViewController.m in Sources */,
 				72B192401898320800A87FAD /* AppDelegate.m in Sources */,
 				72B1923C1898320800A87FAD /* main.m in Sources */,
+				72B1927118984DEF00A87FAD /* CoubTableCell.m in Sources */,
+				720AF1FB189AE6E100D24D0A /* Constants.m in Sources */,
+				72B1926E189839A900A87FAD /* CoubApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,26 +456,32 @@
 		};
 		72B1925F1898320800A87FAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CAE5366566A4E9DBB944CB9 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ira Ira (4PB5DXXLCR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Coub/Coub-Prefix.pch";
 				INFOPLIST_FILE = "Coub/Coub-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "055A56D2-D3EE-4F07-9115-FDD098F09733";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		72B192601898320800A87FAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CAE5366566A4E9DBB944CB9 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ira Ira (4PB5DXXLCR)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Coub/Coub-Prefix.pch";
 				INFOPLIST_FILE = "Coub/Coub-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "055A56D2-D3EE-4F07-9115-FDD098F09733";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +547,7 @@
 				72B192601898320800A87FAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72B192611898320800A87FAD /* Build configuration list for PBXNativeTarget "CoubTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +556,7 @@
 				72B192631898320800A87FAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

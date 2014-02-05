@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoubApi.h"
+#import "Constants.h"
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
+@property (nonatomic, assign) enum ContentType contentType;
 @end
